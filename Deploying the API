@@ -1,0 +1,5 @@
+#Create a requirements.txt file:
+pip freeze > requirements.txt
+
+#Create a Procfile:
+web: python app.py
