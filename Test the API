@@ -1,0 +1,5 @@
+#For the POST method, you can use tools like Postman or cURL to send a request:
+curl -X POST http://127.0.0.1:5000/bfhl -H "Content-Type: application/json" -d '{"data": ["M", "1", "334", "4", "B"]}'
+
+#For the GET method, simply access the URL in your browser or use cURL:
+curl -X GET http://127.0.0.1:5000/bfhl
